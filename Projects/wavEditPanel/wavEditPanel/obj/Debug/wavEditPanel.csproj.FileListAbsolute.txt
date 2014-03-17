@@ -1,0 +1,9 @@
+c:\users\günti\documents\visual studio 2013\Projects\wavEditPanel\wavEditPanel\bin\Debug\wavEditPanel.exe.config
+c:\users\günti\documents\visual studio 2013\Projects\wavEditPanel\wavEditPanel\bin\Debug\wavEditPanel.exe
+c:\users\günti\documents\visual studio 2013\Projects\wavEditPanel\wavEditPanel\bin\Debug\wavEditPanel.pdb
+c:\users\günti\documents\visual studio 2013\Projects\wavEditPanel\wavEditPanel\obj\Debug\wavEditPanel.csprojResolveAssemblyReference.cache
+c:\users\günti\documents\visual studio 2013\Projects\wavEditPanel\wavEditPanel\obj\Debug\wavEditPanel.Form1.resources
+c:\users\günti\documents\visual studio 2013\Projects\wavEditPanel\wavEditPanel\obj\Debug\wavEditPanel.Properties.Resources.resources
+c:\users\günti\documents\visual studio 2013\Projects\wavEditPanel\wavEditPanel\obj\Debug\wavEditPanel.csproj.GenerateResource.Cache
+c:\users\günti\documents\visual studio 2013\Projects\wavEditPanel\wavEditPanel\obj\Debug\wavEditPanel.exe
+c:\users\günti\documents\visual studio 2013\Projects\wavEditPanel\wavEditPanel\obj\Debug\wavEditPanel.pdb

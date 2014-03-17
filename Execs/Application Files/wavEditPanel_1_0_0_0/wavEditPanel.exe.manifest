@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="wavEditPanel.exe" version="1.0.0.0" publicKeyToken="21a2bbeb71f09bd4" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="wavEditPanel" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="wavEditPanel.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="wavEditPanel.exe" size="18432">
+      <assemblyIdentity name="wavEditPanel" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>m6sx4eo+UNfS5bVdbXlWvWczyEx7e/tUAB9E/Offjaw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="wavEditPanel.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=M_G\Günti" issuerKeyHash="e683effc49e35c4a40fccba36434af3cfdee7449" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>0dHPXEXIxEZ490r8jtOWiwNF5aTuWZBMD4pSWKFAWwU=</DigestValue></Reference></SignedInfo><SignatureValue>THLMK+9Y2OAUno6VOyPx8pB0LvR6cwEYy8nI3dHMxFKC0ZDkMKfqNWUG5Rqhj91YICsF7455VgtlePEnJVm4O/T1sXhXwOK781xhg6R+nxgoY2ba/6j62Q2a2/SehhF8hrvQw9JovQXu9xRB28WlEm4PZlcWHDPn9uwdgkxUytE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>w3N/cASYBIP6mufB2Q7se005cP15RekIUng7PtPRyXOV0vZZoJetpmWR0+gRqWipSSMjGHICZuxpsUY4C2qdqCT2lXVGgF6wf3JbSqjJWcy5Fz0zEySGpM3RbabZZrJFhZetJm5JJJ07y0t0KRcu+IR58o0aPliTrJJj9ces4m0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="055b40a158528a0f4c9059eea4e545038b96d38efc4af77846c4c8455ccfd1d1" Description="" Url=""><as:assemblyIdentity name="wavEditPanel.exe" version="1.0.0.0" publicKeyToken="21a2bbeb71f09bd4" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=M_G\Günti</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>koYRSP5HxQmhJGLqBS5ibjH0qeTQM9zuQitdfi3p06s=</DigestValue></Reference></SignedInfo><SignatureValue>r113CNVbEHhHcVUVtAboaTQOUY0QtwSCBDzseHBYMFy60Kaa7uNjcXpABvEuqzV9FpH5H9deMo/NWjZ33Hb1YxBr8w4IS6p30GyUE8KEXhf8fAk+fmRmIqKe9HzKtbW/0l54ZnbhCFPeSUeCyPOs5Vi9FTA6HsNRshX6qdgHNwQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>w3N/cASYBIP6mufB2Q7se005cP15RekIUng7PtPRyXOV0vZZoJetpmWR0+gRqWipSSMjGHICZuxpsUY4C2qdqCT2lXVGgF6wf3JbSqjJWcy5Fz0zEySGpM3RbabZZrJFhZetJm5JJJ07y0t0KRcu+IR58o0aPliTrJJj9ces4m0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBvTCCASagAwIBAgIQPZAqm2Puj6hLp0HifXQ8uTANBgkqhkiG9w0BAQsFADAdMRswGQYDVQQDHhIATQBfAEcAXABHAPwAbgB0AGkwHhcNMTQwMjE0MjEzMjMzWhcNMTUwMjE1MDMzMjMzWjAdMRswGQYDVQQDHhIATQBfAEcAXABHAPwAbgB0AGkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMNzf3AEmASD+prnwdkO7HtNOXD9eUXpCFJ4Oz7T0clzldL2WaCXraZlkdPoEaloqUkjIxhyAmbsabFGOAtqnagk9pV1RoBesH9yW0qoyVnMuRc9MxMkhqTN0W2m2WayRYWXrSZuSSSdO8tLdCkXLviEefKNGj5Yk6ySY/XHrOJtAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAT6T+zUzvvFQIn3RdT+fayoS4kljIhVD20kxgbT34Y93O0wLgVBXnPTRHOuBIZQpFiuhrOOwLj2q6PwN5PBcf/UBW4vKJHdCqAhB6tzMN7IpZw61vTPMB4kP6MsRmpt+T1L1fRiuON3+DBGZBuJO0IOHYHLKpZuw+kk6rG8m7B+0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
